@@ -1,0 +1,17 @@
+{
+  "name": "Iconfont",
+  "version": "1.0.0",
+  "description": "Generate Iconfont.",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-iconfont": "^10.0.3",
+    "gulp-rename": "^2.0.0",
+    "lodash": "^4.17.15"
+  }
+}
