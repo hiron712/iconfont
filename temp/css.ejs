@@ -30,7 +30,7 @@
 	width: 1.2857142857142858em;
 	text-align: center;
 }
-<% _.each(glyphs, function(glyph) { %>.<%= className %>-<%= glyph.name %>:before { content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>" }
+<% _.each(glyphs, function(glyph) { %>.<%= className %>-<%= glyph.name %>:before { content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>" } /*<%= glyph.unicode[0] %>*/
 <% }); %>
 
 
@@ -57,5 +57,5 @@
 					 width: 1.2857142857142858em;
 					 text-align: center;
 				 }
-<% _.each(glyphs, function(glyph) { %>.af-<%= className %>-<%= glyph.name %>:after { content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>" }
+<% _.each(glyphs, function(glyph) { %>.af-<%= className %>-<%= glyph.name %>:after { content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>" } /*<%= glyph.unicode[0] %>*/
 <% }); %>
